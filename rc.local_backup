@@ -1,0 +1,42 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+
+# Print the IP address
+_IP=$(hostname -I) || true
+if [ "$_IP" ]; then
+  printf "My IP address is %s\n" "$_IP"
+fi
+
+#disable internal wifi for bluetooth conflict
+sudo ifdown wlan0 
+
+#wifi dongle always awake
+sudo iw wlan1 set power_save off
+
+sleep 30
+#autoconnect to bluetooth devices
+bluetoothctl << EOF
+connect 11:11:22:33:3A:F3
+connect 12:34:56:8B:1A:7D
+EOF
+
+#disable internal wifi for bluetooth conflict
+#sudo ifdown wlan0 power
+
+
+
+#start the radio on the TFT  display
+startx /home/pi/tronradio/launcher.sh
+
+
+exit 0

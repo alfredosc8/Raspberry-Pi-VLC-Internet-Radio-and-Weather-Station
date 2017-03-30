@@ -1,0 +1,17 @@
+http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/index_48_a-p.m3u8;Radio Deejay;deejay.png;
+http://icecast.unitedradio.it/Virgin.mp3;Virgin Radio;virgin.png;
+http://shoutcast.radio24.it:8000/;Radio24;radio24.png;
+http://laut.fm/oldiemania;Oldiemania;oldiemania.png;
+http://laut.fm/hear-it-loud;Hear it Loud;hear_it_loud.png;
+http://laut.fm/1952rebelsradio;Rebels Radio;rebels.png;
+http://uk6.internet-radio.com:8465/;Rock Around the Block;50sRadio.png;
+http://198.105.214.140:2925/Live;Radio Vagabond;
+http://217.151.152.245:80/bigfm-mp3-96;BIG FM;bigfm.png;
+http://mp3.webradio.rockantenne.de:80;Rock Antenne;Rockantenne.png;
+http://swr-mp3-s-swr3.akacast.akamaistream.net/7/203/137136/v1/gnl.akacast.akamaistream.net/swr-mp3-s-swr3;SWR3;swr3.png;
+http://regenbogen.fmstreams.de/live;Radio Regenbogen;regenbogen.png;
+http://icy.unitedradio.it/VirginRockClassic.mp3;Classic Rock;classic.png;
+http://icy.unitedradio.it/VirginRockAlternative.mp3;Rock Alternative;alternative.png;
+http://icy.unitedradio.it/VirginRockParty.mp3;Rock Party;party.png;
+http://icy.unitedradio.it/VirginHardRock.mp3;Virgin Hard Rock;hardrock.png;
+http://188.94.97.90/rockland.mp3;Rockland;rockland.png;
