@@ -6,7 +6,7 @@ even though it uses more resources, it is a much more powerful player compared t
 
 For me, I have a 7% CPU usage, after hours of radio streaming, which I find acceptable.
 
-I used a 3.5" touch screen from Kuman, so, if you go with different dimensions, fid the 
+I used a 3.5" touch screen from Kuman, so, if you go with different dimensions, fix the 
 screen variables in Radio_Weather.py
 
 To make it run, you'll need:
